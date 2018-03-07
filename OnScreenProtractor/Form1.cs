@@ -182,6 +182,7 @@ namespace OnScreenProtractor
             ConfrimBtn.Visible = true;
             AbortBtn.Visible = true;
             QuickMessureBtn.Enabled = false;
+            AngleLabel.Text = "Please finely adjust the lines";
         }
 
         private void MouseHook_MouseEvents(MouseLeftEventChangeArgs _args)
